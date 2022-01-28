@@ -9,9 +9,9 @@
 
 //№1.
 document.write("<strong>Задача №2/1 </strong><br>");
-const replacementSymbol = 'aaa@bbbb@ccc';
-console.log(replacementSymbol.replace(/g/g, '!'));
-
+let text = "ddd@bbb@ccc";
+let newText = text.replaceAll('@', '!');
+console.log(newText);
 
 
 //№2.
